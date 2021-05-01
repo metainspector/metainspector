@@ -23,6 +23,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'addressable', '~> 2.7.0'
   gem.add_dependency 'fastimage', '~> 2.1.7'
   gem.add_dependency 'nesty', '~> 1.0.2'
+  gem.add_dependency 'loofah', '~> 2.0'
+  gem.add_dependency 'htmlentities', '~>4.3'
 
   gem.add_development_dependency 'rspec', '~> 3.9.0'
   gem.add_development_dependency 'webmock', '~> 3.8.3'
